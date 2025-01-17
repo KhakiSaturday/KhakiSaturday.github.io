@@ -1,5 +1,6 @@
 ---
-title: Second Page
+title: Generalized formatting for future class
+
 ---
 
 Things to discuss
