@@ -4,7 +4,8 @@ tags:
 - tag1
 - tag2
 ---
-
+My name is Hunter Hassebroek, I am a Junior at ASU Fulton Engineering School, I am 
+majoring in robotics engineering and enjoy kayaking in my freetime.
 ## Et poposcerat rursus ad magnus premit
 
 Lorem markdownum gradus, qui largis, nec pater pleno: fatum. Adspexit cursus
