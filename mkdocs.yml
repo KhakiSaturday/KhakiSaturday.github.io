@@ -9,7 +9,7 @@ theme:
     primary: green
     accent: black
   font:
-    text: Roboto
+    text: Times New Roman
   logo: static/logo.svg
   favicon: static/logo.png
 
