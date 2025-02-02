@@ -2,5 +2,5 @@
 title: block diagram
 
 ---
-![block diagram](C:\Users\DUCKF\Documents\GitHub\KhakiSaturday.github.io\block diagram real.png)
-Things to discuss
+![block diagram](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/block%20diagram%20real.png)
+
