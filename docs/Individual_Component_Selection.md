@@ -9,9 +9,9 @@ My role on the team is the HMI system. It is required that I have a screen and a
 ### Micro Controller Selection
 | Components         |  Pros       |  Cons       |
 | ------------------ | ----------- | ----------- |
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4.jpg)[ESP32-S3-WROOM-1-N4](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639) Cost:$|Recommended by class/Has all of the pins I need/Affordable/Optimal processing power|Small form factor|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-MINI-1U-N8.jpg)[ESP32-S3-MINI-1U-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$|Has all of the pins I need and some more|Needs an additional antenna for wifi/Not worth the added hassle|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4R2.jpg)[ESP32-S3-WROOM-1-N4R2](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R2/16162643)Cost:$|ESP32-S3-WROOM-1-N4 with PS-RAM/has all the pins I need|It costs more than #1/I probably won’t end up using the PS-Ram|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4.jpg)[ESP32-S3-WROOM-1-N4](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639) Cost:$2.95 USD|Recommended by class/Has all of the pins I need/Affordable/Optimal processing power|Small form factor|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-MINI-1U-N8.jpg)[ESP32-S3-MINI-1U-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$3.10 USD|Has all of the pins I need and some more|Needs an additional antenna for wifi/Not worth the added hassle|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4R2.jpg)[ESP32-S3-WROOM-1-N4R2](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R2/16162643)Cost:$3.10 USD|ESP32-S3-WROOM-1-N4 with PS-RAM/has all the pins I need|It costs more than #1/I probably won’t end up using the PS-Ram|
 
 ### Selected Micro Controller ESP32-S3-WROOM-1-N4
 ### Justification
@@ -19,6 +19,21 @@ When comparing the Three options above I decided to go with option ESP32-S3-WROO
 
 ### Micro Controller Fact Sheet
 
+| PIC18F24Q24 Info     |  Answer            |
+| -------------------- | ------------------ |
+| Model                | ESP32-S3-WROOM-1-N4|
+| Product Page         | [Product Page](https://www.espressif.com/en/module/esp32-s3-wroom-1-en)        |
+| Datasheet            | [Data Sheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)        |
+| Technical Reference| [Technical Reference](https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf)        |
+| Vendor               | [Vendor](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)              |
+| Code Examples        | [Code Examples](https://github.com/espressif/esp-idf/tree/master/examples)         |
+| Code Examples        | [External Resources](https://esp32io.com/tutorials/esp32-code-structure)    |
+| Unit Cost            |  $2.95             |
+| Max Current Entire IC| 500 mA             |
+| Supply Voltage Range | 3.0-3.6 V          |
+| Max GPIO Current(pin)| 40mA               |
+| Support External Interupts| Yes                |
+| Required Programming,Hardware cost,url| Can be programmed over USB               |
 
 
 ### Micro Controller Pin Usage Table
