@@ -80,7 +80,11 @@ I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” optio
 ### Barrel Jack Selection
 | Components         |  Pros       |  Cons       |
 | ------------------ | ----------- | ----------- |
-|![]()[PJ-102B](https://www.digikey.com/en/products/detail/texas-instruments/LM2674MX-3-3-NOPB/366902) Cost:$3.37 USD|Few pins that need to be soldered/ Small Footprint| Decently expensive/ only provides 500mA/ 3 Volt Output/ Min Voltage range input of 6.5V|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg)[LM2576-5.0WU-TR](https://www.digikey.com/en/products/detail/microchip-technology/LM2576-5-0WU-TR/1027688)Cost:$1.79 USD| Cheap/ 2 amps which would be nice if I needed to add a component to my board/ Only 5 pins to solder/ 5 Volt output/ Min Voltage range input of 4 Volts| Large Footprint|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/SC189ZSKTRT.jpg)[SC189ZSKTRT](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) Cost:$1.89 USD| Only 6 pins/ space efficient
-| Incredibly small/Easy to lose/ Will be a headache|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102B.jpg)[PJ-102B](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102B/281307)Cost:$0.65 USD| 5 amp max current rating/Fulfills power requirements| One cent more than PJ-002BH|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102A.jpg)[PJ-102A](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102A/275425)Cost:$0.65 USD| Fulfills power requirements| 2.5 amp max current rating|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-002BH.jpg)[PJ-002BH](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-002BH/408447) Cost:$0.64 USD| 5 amp max current rating/ Fulfills power requirements/ Cheaper by 1 cent| It’s facing to the right|
+
+### Choice: PJ-002BH
+
+### Justification
+I chose the PJ-002BH due to the price point being a cent less, as they say a penny saved is a penny earned. It also fullfills the power needs of my system.
