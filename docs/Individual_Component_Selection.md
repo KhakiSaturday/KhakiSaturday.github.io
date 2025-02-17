@@ -77,4 +77,10 @@ I selected the GRAPHIC DISPLAY TFT RGB 2" due to its included libraries as they 
 ### Justification
 I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” option that I was able to find. The wide range it has for the input voltage and the extra 2 amps it's able to provide will be a huge help if I need to swap components last second. Its footprint also allows for it to be mounted partially off the side of the board for added space.
 
-
+### Barrel Jack Selection
+| Components         |  Pros       |  Cons       |
+| ------------------ | ----------- | ----------- |
+|![]()[PJ-102B](https://www.digikey.com/en/products/detail/texas-instruments/LM2674MX-3-3-NOPB/366902) Cost:$3.37 USD|Few pins that need to be soldered/ Small Footprint| Decently expensive/ only provides 500mA/ 3 Volt Output/ Min Voltage range input of 6.5V|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg)[LM2576-5.0WU-TR](https://www.digikey.com/en/products/detail/microchip-technology/LM2576-5-0WU-TR/1027688)Cost:$1.79 USD| Cheap/ 2 amps which would be nice if I needed to add a component to my board/ Only 5 pins to solder/ 5 Volt output/ Min Voltage range input of 4 Volts| Large Footprint|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/SC189ZSKTRT.jpg)[SC189ZSKTRT](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) Cost:$1.89 USD| Only 6 pins/ space efficient
+| Incredibly small/Easy to lose/ Will be a headache|
