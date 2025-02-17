@@ -9,16 +9,30 @@ My role on the team is the HMI system. It is required that I have a screen and a
 ### Micro Controller Selection
 | Components         |  Pros       |  Cons       |
 | ------------------ | ----------- | ----------- |
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4.jpg)[ESP32-S3-WROOM-1-N4](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)| / Recommended by class
-has all of the pins I need/affordable
-just the right amount of processing power|small form factor|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-MINI-1U-N8.jpg)[ESP32-S3-MINI-1U-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863)|has all of the pins I need and some more|needs an additional antenna for wifi
-not worth the added hassle|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4R2.jpg)[ESP32-S3-WROOM-1-N4R2](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R2/16162643)|  |  |
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4.jpg)[ESP32-S3-WROOM-1-N4](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639) Cost:$|Recommended by class/Has all of the pins I need/Affordable/Optimal processing power|Small form factor|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-MINI-1U-N8.jpg)[ESP32-S3-MINI-1U-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$|Has all of the pins I need and some more|Needs an additional antenna for wifi/Not worth the added hassle|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4R2.jpg)[ESP32-S3-WROOM-1-N4R2](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R2/16162643)Cost:$|ESP32-S3-WROOM-1-N4 with PS-RAM/has all the pins I need|It costs more than #1/I probably won’t end up using the PS-Ram|
 
-
+### Selected Micro Controller ESP32-S3-WROOM-1-N4
+### Justification
+When comparing the Three options above I decided to go with option ESP32-S3-WROOM-1-N4. This is due to it being similar to the one we will be using in class. Thus it will be easier to troubleshoot since everyone in the class will have had some experience with it and makes getting it up and running easier. It is also the cheapest option out of the three, keeping it cheap is very important and means that I can splurge more on the buttons and the housing for the control system.
 
 ### Micro Controller Fact Sheet
 
 
+
 ### Micro Controller Pin Usage Table
+| Module         | # Available | Needed | Associated Pins                                    |
+| -------------- | ----------- | ------ | -------------------------------------------------- |
+| Power          |  2          | 2      | EN, 3V3                                            |
+| Ground         |  2          | 2      | GND, GND                                           |
+| UART           |  3          | 2      | GPIO17~GPIO18, GPIO43~GPIO44                       |
+| External SPI   |  4          | 4      | GPIO26~GPIO32, GPIO33~GPIO37, GPIO9~GPIO14, GPIO38 |
+| I2C            |  2          | 0      | Can Be Choosen Via Pin Matrix                      |
+| GPIO           |  45         | 5      | *                                                  |
+| Motor PWM      |  0          | 0      | N/A                                                |
+| USB Programmer |  1          | 1      | GPIO19~GPIO20                                      |
+
+
+
+
