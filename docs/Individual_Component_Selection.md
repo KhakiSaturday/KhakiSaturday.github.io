@@ -14,7 +14,8 @@ My role on the team is the HMI system. It is required that I have a screen and a
 |![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-MINI-1U-N8.jpg)[ESP32-S3-MINI-1U-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$3.10 USD|Has all of the pins I need and some more|Needs an additional antenna for wifi/Not worth the added hassle|
 |![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4R2.jpg)[ESP32-S3-WROOM-1-N4R2](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R2/16162643)Cost:$3.10 USD|ESP32-S3-WROOM-1-N4 with PS-RAM/has all the pins I need|It costs more than #1/I probably won’t end up using the PS-Ram|
 
-### Selected Micro Controller ESP32-S3-WROOM-1-N4
+### Choice: ESP32-S3-WROOM-1-N4
+
 ### Justification
 When comparing the three options above I decided to go with option ESP32-S3-WROOM-1-N4. This is due to it being similar to the one we will be using in class. Thus it will be easier to troubleshoot since everyone in the class will have had some experience with it and makes getting it up and running easier. It is also the cheapest option out of the three, keeping it cheap is very important and means that I can splurge more on the buttons and the housing for the control system.
 
@@ -57,7 +58,7 @@ When comparing the three options above I decided to go with option ESP32-S3-WROO
 |![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/613516_005975_01_front_zoom.jpg)[Adafruit 1.44" Color TFT LCD Display with MicroSD Card breakout - ST7735R](https://www.adafruit.com/product/2088)Cost:$14.95 USD| Can be seen from multiple different viewing angles without lose in image quality/ Has premade libraries and example code for I2C and SPI| Its an LCD screen/ Less value than the 2” version/ Slow refresh rate|
 |![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_NHD-1.8-160128UBC3_web(640x640).jpg)[NHD-1.8-160128UBC3](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$25.91 USD|It's an OLED/ Fulfills assignment criteria| No premade libraries with examples/ more expensive than the other two by at minimum five dollars/ Small screen size/ Slow refresh rate|
 
-### Component Selected: GRAPHIC DISPLAY TFT RGB 2"
+### Choice: GRAPHIC DISPLAY TFT RGB 2"
 
 ### Justification
 I selected the GRAPHIC DISPLAY TFT RGB 2" due to its included libraries as they were a big reason for my choice. Having example code of how to get it up and running in the language we are using is a huge help, in combination with it having examples of communication through I2C and SPI is a massive bonus. In case one is harder than the other I can always swap over to the other. It also has a leg up on the competition as I already have approval on the screen, which makes it a guaranteed best choice.
@@ -71,7 +72,7 @@ I selected the GRAPHIC DISPLAY TFT RGB 2" due to its included libraries as they 
 |![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/SC189ZSKTRT.jpg)[SC189ZSKTRT](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) Cost:$1.89 USD| Only 6 pins/ space efficient
 | Incredibly small/Easy to lose/ Will be a headache|
 
-### Voltage Regulator Selected: LM2576-5.0WU-TR
+### Choice: LM2576-5.0WU-TR
 
 ### Justification
 I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” option that I was able to find. The wide range it has for the input voltage and the extra 2 amps it's able to provide will be a huge help if I need to swap components last second. Its footprint also allows for it to be mounted partially off the side of the board for added space.
