@@ -50,4 +50,10 @@ When comparing the Three options above I decided to go with option ESP32-S3-WROO
 
 
 
+| Components         |  Pros       |  Cons       |
+| ------------------ | ----------- | ----------- |
+|![]()[2.0" 320x240 Color IPS TFT Display with microSD Card Breakout - ST7789 EYESPI](https://www.adafruit.com/product/4311) Cost:$19.95 USD|Recommended by class/Has all of the pins I need/Affordable/Optimal processing power|Small form factor|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/613516_005975_01_front_zoom.jpg)[Adafruit 1.44" Color TFT LCD Display with MicroSD Card breakout - ST7735R](https://www.adafruit.com/product/2088)Cost:$3.10 USD|ESP32-S3-WROOM-1-N4 with PS-RAM/has all the pins I need|It costs more than #1/I probably won’t end up using the PS-Ram|
+|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-MINI-1U-N8.jpg)[ESP32-S3-MINI-1U-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$3.10 USD|Has all of the pins I need and some more|Needs an additional antenna for wifi/Not worth the added hassle|
+
 
