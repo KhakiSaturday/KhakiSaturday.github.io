@@ -23,9 +23,9 @@ When comparing the three options above I decided to go with option ESP32-S3-WROO
 
 | Components         |  Pros       |  Cons       |
 | ------------------ | ----------- | ----------- |
-|< img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/4133screenadafruit.jpg?raw=true" width="200">[2.0" 320x240 Color IPS TFT Display with microSD Card Breakout - ST7789 EYESPI](https://www.adafruit.com/product/4311) Cost:$19.95 USD|BIG screen/premade libraries and examples for both I2C and SPI/good documentation on how it should be wired/has videos on how to code it|Cost is 1/3 of my budget/Data sheet is unconventional but still able to be comprehended/slow refresh rate|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/613516_005975_01_front_zoom.jpg)[Adafruit 1.44" Color TFT LCD Display with MicroSD Card breakout - ST7735R](https://www.adafruit.com/product/2088)Cost:$14.95 USD| Can be seen from multiple different viewing angles without lose in image quality/ Has premade libraries and example code for I2C and SPI| Its an LCD screen/ Less value than the 2” version/ Slow refresh rate|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_NHD-1.8-160128UBC3_web(640x640).jpg)[NHD-1.8-160128UBC3](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$25.91 USD|It's an OLED/ Fulfills assignment criteria| No premade libraries with examples/ more expensive than the other two by at minimum five dollars/ Small screen size/ Slow refresh rate|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/4133screenadafruit.jpg?raw=true" width="200">[2.0" 320x240 Color IPS TFT Display with microSD Card Breakout - ST7789 EYESPI](https://www.adafruit.com/product/4311) Cost:$19.95 USD|BIG screen/premade libraries and examples for both I2C and SPI/good documentation on how it should be wired/has videos on how to code it|Cost is 1/3 of my budget/Data sheet is unconventional but still able to be comprehended/slow refresh rate|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/613516_005975_01_front_zoom.jpg?raw=true" width="200">[Adafruit 1.44" Color TFT LCD Display with MicroSD Card breakout - ST7735R](https://www.adafruit.com/product/2088)Cost:$14.95 USD| Can be seen from multiple different viewing angles without lose in image quality/ Has premade libraries and example code for I2C and SPI| Its an LCD screen/ Less value than the 2” version/ Slow refresh rate|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_NHD-1.8-160128UBC3_web(640x640).jpg?raw=true" width="200">[NHD-1.8-160128UBC3](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$25.91 USD|It's an OLED/ Fulfills assignment criteria| No premade libraries with examples/ more expensive than the other two by at minimum five dollars/ Small screen size/ Slow refresh rate|
 
 ### Choice: GRAPHIC DISPLAY TFT RGB 2"
 
@@ -36,9 +36,9 @@ I selected the GRAPHIC DISPLAY TFT RGB 2" due to its included libraries as they 
 
 | Components         |  Pros       |  Cons       |
 | ------------------ | ----------- | ----------- |
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2674MX33NOPB.jpg)[LM2674MX-3.3/NOPB](https://www.digikey.com/en/products/detail/texas-instruments/LM2674MX-3-3-NOPB/366902) Cost:$3.37 USD|Few pins that need to be soldered/ Small Footprint| Decently expensive/ only provides 500mA/ 3 Volt Output/ Min Voltage range input of 6.5V|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg)[LM2576-5.0WU-TR](https://www.digikey.com/en/products/detail/microchip-technology/LM2576-5-0WU-TR/1027688)Cost:$1.79 USD| Cheap/ 2 amps which would be nice if I needed to add a component to my board/ Only 5 pins to solder/ 5 Volt output/ Min Voltage range input of 4 Volts| Large Footprint|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/SC189ZSKTRT.jpg)[SC189ZSKTRT](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) Cost:$1.89 USD| Only 6 pins/ space efficient
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2674MX33NOPB.jpg?raw=true" width="200">[LM2674MX-3.3/NOPB](https://www.digikey.com/en/products/detail/texas-instruments/LM2674MX-3-3-NOPB/366902) Cost:$3.37 USD|Few pins that need to be soldered/ Small Footprint| Decently expensive/ only provides 500mA/ 3 Volt Output/ Min Voltage range input of 6.5V|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg?raw=true" width="200">[LM2576-5.0WU-TR](https://www.digikey.com/en/products/detail/microchip-technology/LM2576-5-0WU-TR/1027688)Cost:$1.79 USD| Cheap/ 2 amps which would be nice if I needed to add a component to my board/ Only 5 pins to solder/ 5 Volt output/ Min Voltage range input of 4 Volts| Large Footprint|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/SC189ZSKTRT.jpg?raw=true" width="200">[SC189ZSKTRT](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) Cost:$1.89 USD| Only 6 pins/ space efficient
 | Incredibly small/Easy to lose/ Will be a headache|
 
 ### Choice: LM2576-5.0WU-TR
@@ -50,9 +50,9 @@ I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” optio
 
 | Components         |  Pros       |  Cons       |
 | ------------------ | ----------- | ----------- |
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102B.jpg)[PJ-102B](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102B/281307)Cost:$0.65 USD| 5 amp max current rating/Fulfills power requirements| One cent more than PJ-002BH|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102A.jpg)[PJ-102A](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102A/275425)Cost:$0.65 USD| Fulfills power requirements| 2.5 amp max current rating|
-|![](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-002BH.jpg)[PJ-002BH](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-002BH/408447) Cost:$0.64 USD| 5 amp max current rating/ Fulfills power requirements/ Cheaper by 1 cent| It’s facing to the right|
+|<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102B.jpg?raw=true" width="200">[PJ-102B](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102B/281307)Cost:$0.65 USD| 5 amp max current rating/Fulfills power requirements| One cent more than PJ-002BH|
+|<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102A.jpg?raw=true" width="200">[PJ-102A](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102A/275425)Cost:$0.65 USD| Fulfills power requirements| 2.5 amp max current rating|
+|<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-002BH.jpg?raw=true" width="200">[PJ-002BH](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-002BH/408447) Cost:$0.64 USD| 5 amp max current rating/ Fulfills power requirements/ Cheaper by 1 cent| It’s facing to the right|
 
 ### Choice: PJ-002BH
 
