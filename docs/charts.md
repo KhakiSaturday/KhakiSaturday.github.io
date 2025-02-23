@@ -1,5 +1,3 @@
 ---
-title: Charts
+title: Schmeatic
 ---
-#Block Diagram
-![block diagram](https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Therealblockdiagram.png)
