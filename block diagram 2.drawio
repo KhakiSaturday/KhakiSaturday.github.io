@@ -37,7 +37,7 @@
         <mxCell id="9j5Bc3N9rgv02oG_bQQu-29" value="&lt;div&gt;DI&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;RXY&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="9j5Bc3N9rgv02oG_bQQu-47" vertex="1">
           <mxGeometry x="-30" y="10" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9j5Bc3N9rgv02oG_bQQu-31" value="&lt;div&gt;DO&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;RXY&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="9j5Bc3N9rgv02oG_bQQu-47" vertex="1">
+        <mxCell id="9j5Bc3N9rgv02oG_bQQu-31" value="&lt;div&gt;DO&lt;/div&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0)&quot;&gt;RXY&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="9j5Bc3N9rgv02oG_bQQu-47" vertex="1">
           <mxGeometry x="170" y="60" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9j5Bc3N9rgv02oG_bQQu-33" value="&lt;div&gt;PWM&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;RXY-Z&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="9j5Bc3N9rgv02oG_bQQu-47" vertex="1">
