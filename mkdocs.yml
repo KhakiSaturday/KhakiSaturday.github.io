@@ -65,5 +65,5 @@ extra:
   generator: false
   social:
     - icon: fontawesome/regular/file-code
-      link: /2023_fall
+      link: https://asu-egr314-2025-s-310.github.io/
       name: 2023 Site    
