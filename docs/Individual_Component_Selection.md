@@ -25,7 +25,7 @@ When comparing the three options above I decided to go with option ESP32-S3-WROO
 | ------------------ | ----------- | ----------- |
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/4133screenadafruit.jpg?raw=true" width="200">[2.0" 320x240 Color IPS TFT Display with microSD Card Breakout - ST7789 EYESPI](https://www.adafruit.com/product/4311) Cost:$19.95 USD|BIG screen/premade libraries and examples for both I2C and SPI/good documentation on how it should be wired/has videos on how to code it|Cost is 1/3 of my budget/Data sheet is unconventional but still able to be comprehended/slow refresh rate|
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/613516_005975_01_front_zoom.jpg?raw=true" width="200">[Adafruit 1.44" Color TFT LCD Display with MicroSD Card breakout - ST7735R](https://www.adafruit.com/product/2088)Cost:$14.95 USD| Can be seen from multiple different viewing angles without lose in image quality/ Has premade libraries and example code for I2C and SPI| Its an LCD screen/ Less value than the 2” version/ Slow refresh rate|
-|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_NHD-1.8-160128UBC3_web(640x640).jpg?raw=true" width="200">[NHD-1.8-160128UBC3](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1U-N8/17728863) Cost:$25.91 USD|It's an OLED/ Fulfills assignment criteria| No premade libraries with examples/ more expensive than the other two by at minimum five dollars/ Small screen size/ Slow refresh rate|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_NHD-1.8-160128UBC3_web(640x640).jpg?raw=true" width="200">[NHD-1.8-160128UBC3](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-1-8-160128UBC3/23334148) Cost:$25.91 USD|It's an OLED/ Fulfills assignment criteria| No premade libraries with examples/ more expensive than the other two by at minimum five dollars/ Small screen size/ Slow refresh rate|
 
 ### Choice: GRAPHIC DISPLAY TFT RGB 2"
 
@@ -58,6 +58,16 @@ I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” optio
 ### Justification
 I chose the PJ-002BH due to the price point being a cent less, as they say a penny saved is a penny earned. It also fullfills the power needs of my system.
 
+### USB Micro B Connector
+|<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[USB3131-30-0230-A](https://www.digikey.com/en/products/detail/gct/USB3131-30-0230-A/9859642) Cost:$0.77 USD|
+
+## Justification
+ The USB3131-30-0230-A was chosen for conformity with the other teammate using the esp32, this way if problems arise we are able to help eachother with getting USB Micro B port to work. It is also cheap and an effective USB Micro B port with only a bare minimum amount of pins required.
+
+### Buttons
+|<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[Arcade Button with LED - 30mm Translucent Blue](https://www.adafruit.com/product/3490) Cost:$2.50 USD|
+## Justification
+The button was chosen due to its large size and the five different color ways it had. Due to needing 5 different buttons for my system to control menuing and power, this is not only the best option to have board wise but also for readability and navigabiity of the device with each color being used for a different purpose.
 ### Micro Controller Fact Sheet
 
 | PIC18F24Q24 Info     |  Answer            |
