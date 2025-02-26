@@ -50,8 +50,8 @@ I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” optio
 | Components         |  Pros       |  Cons       |
 | ------------------ | ----------- | ----------- |
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102B.jpg?raw=true" width="200">[PJ-102B](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102B/281307)Cost:$0.65 USD| 5 amp max current rating/Fulfills power requirements| One cent more than PJ-002BH|
-|<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102A.jpg?raw=true" width="200">[PJ-102A](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102A/275425)Cost:$0.65 USD| Fulfills power requirements| 2.5 amp max current rating|
-|<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-002BH.jpg?raw=true" width="200">[PJ-002BH](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-002BH/408447) Cost:$0.64 USD| 5 amp max current rating/ Fulfills power requirements/ Cheaper by 1 cent| It’s facing to the right|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-102A.jpg?raw=true" width="200">[PJ-102A](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102A/275425)Cost:$0.65 USD| Fulfills power requirements| 2.5 amp max current rating|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/PJ-002BH.jpg?raw=true" width="200">[PJ-002BH](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-002BH/408447) Cost:$0.64 USD| 5 amp max current rating/ Fulfills power requirements/ Cheaper by 1 cent| It’s facing to the right|
 
 ### Choice: PJ-002BH
 
