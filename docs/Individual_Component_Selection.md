@@ -59,13 +59,13 @@ I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” optio
 I chose the PJ-002BH due to the price point being a cent less, as they say a penny saved is a penny earned. It also fullfills the power needs of my system.
 
 ### USB Micro B Connector
-|<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[USB3131-30-0230-A](https://www.digikey.com/en/products/detail/gct/USB3131-30-0230-A/9859642) Cost:$0.77 USD|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[USB3131-30-0230-A](https://www.digikey.com/en/products/detail/gct/USB3131-30-0230-A/9859642) Cost:$0.77 USD|
 
 ## Justification
  The USB3131-30-0230-A was chosen for conformity with the other teammate using the esp32, this way if problems arise we are able to help eachother with getting USB Micro B port to work. It is also cheap and an effective USB Micro B port with only a bare minimum amount of pins required.
 
 ### Buttons
-|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[Arcade Button with LED - 30mm Translucent Blue](https://www.adafruit.com/product/3490) Cost:$2.50 USD|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" width="200">[Arcade Button with LED - 30mm Translucent Blue](https://www.adafruit.com/product/3490) Cost:$2.50 USD|
 
 ## Justification
 The button was chosen due to its large size and the five different color ways it had. Due to needing 5 different buttons for my system to control menuing and power, this is not only the best option to have board wise but also for readability and navigabiity of the device with each color being used for a different purpose.
