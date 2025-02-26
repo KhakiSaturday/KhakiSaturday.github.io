@@ -66,8 +66,10 @@ I chose the PJ-002BH due to the price point being a cent less, as they say a pen
 
 ### Buttons
 |<img src="(https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[Arcade Button with LED - 30mm Translucent Blue](https://www.adafruit.com/product/3490) Cost:$2.50 USD|
+
 ## Justification
 The button was chosen due to its large size and the five different color ways it had. Due to needing 5 different buttons for my system to control menuing and power, this is not only the best option to have board wise but also for readability and navigabiity of the device with each color being used for a different purpose.
+
 ### Micro Controller Fact Sheet
 
 | PIC18F24Q24 Info     |  Answer            |
@@ -98,3 +100,7 @@ The button was chosen due to its large size and the five different color ways it
 | GPIO           |  45         | 5      | *                                                  |
 | Motor PWM      |  0          | 0      | N/A                                                |
 | USB Programmer |  1          | 1      | GPIO19-GPIO20                                      |
+
+### Power Budget
+<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/power%20budget%20HMI%20Hunter.JPG?raw=true">
+
