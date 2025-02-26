@@ -2,7 +2,7 @@
 title: Hunter Hassebroek Home Page
 ----
 ### Link back to Team Website
-[Arcade Button with LED - 30mm Translucent Blue](https://asu-egr314-2025-s-310.github.io/)
+[Link to Team Website](https://asu-egr314-2025-s-310.github.io/)
 ### Links to Teammate Websites
 - [Kirk Volin - MQTT](https://kirkvolin.github.io/)
 - [Hunter Hassebroek - HMI](https://khakisaturday.github.io/)
