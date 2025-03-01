@@ -59,7 +59,11 @@ I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” optio
 I chose the PJ-002BH due to the price point being a cent less, as they say a penny saved is a penny earned. It also fullfills the power needs of my system.
 
 ### USB Micro B Connector
-|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[USB3131-30-0230-A](https://www.digikey.com/en/products/detail/gct/USB3131-30-0230-A/9859642) Cost:$0.77 USD|
+| Components         |  Pros       |  Cons       |
+| ------------------ | ----------- | ----------- |
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[USB3131-30-0230-A](https://www.digikey.com/en/products/detail/gct/USB3131-30-0230-A/9859642) Cost:$0.77 USD|Good size/ conforms to what other group member using esp32 is using/looks nice/ cheap| uses usb micro b|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[MUSB-B5-S-VT-TSMT-T/R](https://www.digikey.com/en/products/detail/adam-tech/MUSB-B5-S-VT-TSMT-T-R/9832395?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACZYBOMAdggF0CAHAFyhAGVWAnASwB2AcxABfAgDYqCEMkjps%2BIqRCwADFQDMWkExBsO3fsLHiKKgK5YARrtFA) Cost:$1.27 USD|miniusb/cheap programming cables|expensive|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[1051330001](https://www.digikey.com/en/products/detail/molex/1051330001/3313407) Cost:$1.05 USD|fits the needs of the project/ 5 contacts| uses usb micro b|
 
 Justification
  The USB3131-30-0230-A was chosen for conformity with the other teammate using the esp32, this way if problems arise we are able to help eachother with getting USB Micro B port to work. It is also cheap and an effective USB Micro B port with only a bare minimum amount of pins required.
