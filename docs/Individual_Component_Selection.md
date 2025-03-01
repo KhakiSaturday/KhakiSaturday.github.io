@@ -61,14 +61,18 @@ I chose the PJ-002BH due to the price point being a cent less, as they say a pen
 ### USB Micro B Connector
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MFG_USB3131-30-0230-A.jpg?raw=true" width="200">[USB3131-30-0230-A](https://www.digikey.com/en/products/detail/gct/USB3131-30-0230-A/9859642) Cost:$0.77 USD|
 
-## Justification
+Justification
  The USB3131-30-0230-A was chosen for conformity with the other teammate using the esp32, this way if problems arise we are able to help eachother with getting USB Micro B port to work. It is also cheap and an effective USB Micro B port with only a bare minimum amount of pins required.
 
 ### Buttons
-|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" width="200">[Arcade Button with LED - 30mm Translucent Blue](https://www.adafruit.com/product/3490) Cost:$2.50 USD|
+| Components         |  Pros       |  Cons       |
+| ------------------ | ----------- | ----------- |
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" width="200">[Arcade Button with LED - 30mm Translucent Blue](https://www.adafruit.com/product/3490) Cost:$2.50 USD|Good value per button/has option to light up/ cheap/ large size| will need large housing and said housing will need to be deep|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" width="200">[1187](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1187/6817192) Cost:$9.95 USD|Very large button size/ Can be seen from a mile away|Price|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" width="200">[MX2A-G1NB](https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-G1NB/21738375) Cost:$1.75 USD|Cheapest of the 3/ gets the job done| WAY to small for the application this needs to be geared towards|
 
-## Justification
-The button was chosen due to its large size and the five different color ways it had. Due to needing 5 different buttons for my system to control menuing and power, this is not only the best option to have board wise but also for readability and navigabiity of the device with each color being used for a different purpose.
+Justification
+The button was chosen due to its large size and the five different color ways it had. Due to needing 5 different buttons for my system to control menuing, this is not only the best option to have board wise but also for readability and navigabiity of the device with each color being used for a different purpose.
 
 ### Micro Controller Fact Sheet
 
