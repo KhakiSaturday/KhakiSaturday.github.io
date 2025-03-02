@@ -1,5 +1,5 @@
 ----
-title: Hunter Hassebroek Home Page
+Hunter Hassebroek Home Page
 ----
 ### Link back to Team Website
 [Link to Team Website](https://asu-egr314-2025-s-310.github.io/)
