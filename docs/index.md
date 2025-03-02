@@ -10,9 +10,9 @@ Hunter Hassebroek Home Page
 - [Evan Skinner - Sensors](https://eeskinn1.github.io/)
 
 ### Links to other parts of the site
--[Bill of Materials and Purchase Orders](https://khakisaturday.github.io/OrderFormsandBOM/)
--[Diagrams and Charts ](https://khakisaturday.github.io/charts/)
--[Individual Component Selection](https://khakisaturday.github.io/Individual_Component_Selection/)
+- [Bill of Materials and Purchase Orders](https://khakisaturday.github.io/OrderFormsandBOM/)
+- [Diagrams and Charts ](https://khakisaturday.github.io/charts/)
+- [Individual Component Selection](https://khakisaturday.github.io/Individual_Component_Selection/)
 
 ### Introduction
 Hi, my name is Hunter Hassebroek, I am a Junior at Arizona State University Studying Robotics Engineering with a focus in Manufacturing Engineering. Our project is a electromagnet accelerator, my subsystem for the project is the Human Interface System. 
