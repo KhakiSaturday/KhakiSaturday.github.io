@@ -75,7 +75,7 @@ Justification
 | ------------------ | ----------- | ----------- |
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" width="200">[Arcade Button with LED - 30mm Translucent Blue](https://www.adafruit.com/product/3490) Cost:$2.50 USD|Good value per button/has option to light up/ cheap/ large size| will need large housing and said housing will need to be deep|
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/adafruitwhitebutton.jpg?raw=true" width="200">[1187](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1187/6817192) Cost:$9.95 USD|Very large button size/ Can be seen from a mile away|Price|
-|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MX2A-G1NB_web(640x640).jpg" width="200">[MX2A-G1NB](https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-G1NB/21738375) Cost:$1.75 USD|Cheapest of the 3/ gets the job done| WAY to small for the application this needs to be geared towards|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/MX2A-G1NB_web(640x640).jpg?raw=true" width="200">[MX2A-G1NB](https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-G1NB/21738375) Cost:$1.75 USD|Cheapest of the 3/ gets the job done| WAY to small for the application this needs to be geared towards|
 
 Choice:Arcade Button with LED - 30mm Translucent Blue
 
