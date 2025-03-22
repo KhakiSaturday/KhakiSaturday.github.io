@@ -103,16 +103,16 @@ Error Types:
 
 ## Message handling 
 ### HMI message handling protocol
-Identify the start of a message and begin copying it to an array for retransmission.
+1. Identify the start of a message and begin copying it to an array for retransmission.
 When receiver identified either
-2a. If not mine, finish copying to the retransmission array and retransmit.
-2b. If mine, proceed to step 3.
-2c. If broadcast, copy to the retransmit array, retransmit, and continue to step 3.
-3.  Identify message type
-4. Interpret message data and apply as specified
-5. Trash message
-6. Transmit relevant data
-7. When new message is received go back to step 1
+    2a. If not mine, finish copying to the retransmission array and retransmit.
+    2b. If mine, proceed to step 3.
+     2c. If broadcast, copy to the retransmit array, retransmit, and continue to step 3.
+ 3. Identify message type
+ 4. Interpret message data and apply as specified
+ 5. Trash message
+ 6. Transmit relevant data
+ 7. When new message is received go back to step 1
 
 Each step has an error check to make sure that things are proceeding smoothly, if it fails, the error code and the address it was transmitted from will be transmitted.
 
