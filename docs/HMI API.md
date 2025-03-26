@@ -55,6 +55,17 @@ Stop Byte (2 uint8_t)
 |Max|  2 |
 |Example| 0 (No connection)|
 
+### Ball Speed from Sensors
+
+|  |  Byte 1     |
+| -----------| ----------- |
+|Message| Ball Speed  |
+|Variable Type| uint8_t  |
+|Min| 0 |
+|Max| 100 |
+|Example| 2 |
+
+
 ## Sent Messages
 
 ### Speed Setting
