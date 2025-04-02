@@ -490,13 +490,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#hmi-reset" class="md-nav__link">
-    HMI Reset
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -708,13 +701,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#hmi-reset" class="md-nav__link">
-    HMI Reset
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -846,19 +832,23 @@
 </tr>
 <tr>
 <td>Variable Type</td>
-<td>char</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Data Type</td>
+<td>R</td>
 </tr>
 <tr>
 <td>Min</td>
-<td>RST</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Max</td>
-<td>RST</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Example</td>
-<td>RST</td>
+<td>AZKXR1YB</td>
 </tr>
 </tbody>
 </table>
@@ -880,16 +870,20 @@
 <td>uint8_t</td>
 </tr>
 <tr>
+<td>Data Type</td>
+<td>W</td>
+</tr>
+<tr>
 <td>Min</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Max</td>
-<td>2</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Example</td>
-<td>0 (No connection)</td>
+<td>AZKHW1YB</td>
 </tr>
 </tbody>
 </table>
@@ -911,6 +905,10 @@
 <td>uint8_t</td>
 </tr>
 <tr>
+<td>Data Type</td>
+<td>S</td>
+</tr>
+<tr>
 <td>Min</td>
 <td>0</td>
 </tr>
@@ -920,7 +918,7 @@
 </tr>
 <tr>
 <td>Example</td>
-<td>2</td>
+<td>AZEHS25YB</td>
 </tr>
 </tbody>
 </table>
@@ -943,16 +941,20 @@
 <td>uint8_t</td>
 </tr>
 <tr>
+<td>Data Type</td>
+<td>S</td>
+</tr>
+<tr>
 <td>Min</td>
-<td>1</td>
+<td>0</td>
 </tr>
 <tr>
 <td>Max</td>
-<td>3</td>
+<td>6</td>
 </tr>
 <tr>
 <td>Example</td>
-<td>2 (Medium Speed)</td>
+<td>AZHNS5YB</td>
 </tr>
 </tbody>
 </table>
@@ -967,23 +969,27 @@
 <tbody>
 <tr>
 <td>Message</td>
-<td>Error Type</td>
+<td>Data Type</td>
 </tr>
 <tr>
 <td>Variable Type</td>
-<td>uint8_t</td>
+<td>CHAR</td>
+</tr>
+<tr>
+<td>Data Type</td>
+<td>E</td>
 </tr>
 <tr>
 <td>Min</td>
-<td>0</td>
+<td>E</td>
 </tr>
 <tr>
 <td>Max</td>
-<td>5</td>
+<td>E</td>
 </tr>
 <tr>
 <td>Example</td>
-<td>2</td>
+<td>AZHBE3YB</td>
 </tr>
 </tbody>
 </table>
@@ -994,37 +1000,6 @@
 <p>3: Incorrect / No Stop Bit</p>
 <p>4: Incorrect Data Value in Valid Message</p>
 <p>5: Bytes per Message Overflow</p>
-<h3 id="hmi-reset">HMI Reset</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>HMI Reset</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>1 (reset)</td>
-</tr>
-</tbody>
-</table>
 <h2 id="message-handling">Message handling</h2>
 <h3 id="hmi-message-handling-protocol">HMI message handling protocol</h3>
 <ol>
