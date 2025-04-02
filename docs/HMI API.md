@@ -41,19 +41,21 @@ Stop Byte (2 uint8_t)
 |  |  Byte 1     |
 | -----------| ----------- |
 |Message| Master Reset  |
-|Variable Type| char  |
-|Min| RST |
-|Max| RST |
-|Example| RST |
+|Variable Type| uint8_t |
+|Data Type| R |
+|Min| 1 |
+|Max| 1 |
+|Example| AZKXR1YB|
 
 ### MQTT Connection
 |  |  Byte 1     |
 | -----------| ----------- |
 |Message| MQTT Connection  |
 |Variable Type| uint8_t  |
-|Min|  0 |
-|Max|  2 |
-|Example| 0 (No connection)|
+|Data Type| W |
+|Min| 0 |
+|Max| 1 |
+|Example| AZKHW1YB|
 
 ### Ball Speed from Sensors
 
@@ -61,9 +63,10 @@ Stop Byte (2 uint8_t)
 | -----------| ----------- |
 |Message| Ball Speed  |
 |Variable Type| uint8_t  |
+|Data Type| S |
 |Min| 0 |
 |Max| 100 |
-|Example| 2 |
+|Example| AZEHS25YB |
 
 
 ## Sent Messages
@@ -73,19 +76,21 @@ Stop Byte (2 uint8_t)
 | -----------| ----------- |
 |Message| Speed Setting  |
 |Variable Type| uint8_t  |
-|Min|  1 |
-|Max|  3 |
-|Example| 2 (Medium Speed)|
+|Data Type| S |
+|Min|  0 |
+|Max|  6 |
+|Example| AZHNS5YB |
 
 ### Error
 
 |  |  Byte 1     |
 | -----------| ----------- |
-|Message| Error Type | Address Received |
-|Variable Type| uint8_t  | char |
-|Min| 0  | Z (No error address) |
-|Max| 5 | Address of Error  |
-|Example| 2  | E  |
+|Message| Data Type | Error Type |
+|Variable Type| CHAR  | uint8_t |
+|Data Type| E | n/a |
+|Min| E  | 0 |
+|Max| E | 5  |
+|Example| AZHBE3YB ||
 
 Error Types:
 
@@ -100,17 +105,6 @@ Error Types:
 4: Incorrect Data Value in Valid Message
 
 5: Bytes per Message Overflow
-
-### HMI Reset
-
-|  |  Byte 1     |
-| -----------| ----------- |
-|Message| HMI Reset  |
-|Variable Type| uint8_t  |
-|Min| 0 |
-|Max| 1 |
-|Example| 1 (reset) |
-
 
 ## Message handling 
 ### HMI message handling protocol
