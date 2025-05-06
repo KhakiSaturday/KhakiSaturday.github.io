@@ -753,6 +753,10 @@
 <td>H</td>
 </tr>
 <tr>
+<td>Dominic Trusko</td>
+<td>D</td>
+</tr>
+<tr>
 <td>Broadcast</td>
 <td>X</td>
 </tr>
@@ -774,7 +778,7 @@
 </thead>
 <tbody>
 <tr>
-<td>5</td>
+<td>6</td>
 <td>Prefix (AZ)</td>
 <td>MQTT ID (K)</td>
 <td>HMI ID (H)</td>
@@ -783,7 +787,7 @@
 <td>Suffix (YB)</td>
 </tr>
 <tr>
-<td>6</td>
+<td></td>
 <td>Prefix (AZ)</td>
 <td>MQTT ID (K)</td>
 <td>HMI ID (H)</td>
@@ -792,9 +796,9 @@
 <td>Suffix (YB)</td>
 </tr>
 <tr>
-<td>1</td>
+<td>7</td>
 <td>Prefix (AZ)</td>
-<td>Sensor ID (E)</td>
+<td>MQTT ID (K)</td>
 <td>HMI ID (H)</td>
 <td>Ball Speed (V)</td>
 <td>Ball Speed (0-100)</td>
@@ -818,7 +822,7 @@
 </thead>
 <tbody>
 <tr>
-<td>7</td>
+<td>8</td>
 <td>Prefix (AZ)</td>
 <td>HMI ID (H)</td>
 <td>Actuator ID (N)</td>
@@ -827,7 +831,7 @@
 <td>Suffix (YB)</td>
 </tr>
 <tr>
-<td>8</td>
+<td>9</td>
 <td>Prefix (AZ)</td>
 <td>HMI ID (H)</td>
 <td>Broadcast ID (X)</td>
@@ -835,8 +839,18 @@
 <td>Error Message (0-5)</td>
 <td>Suffix (YB)</td>
 </tr>
+<tr>
+<td>10*</td>
+<td>Prefix (AZ)</td>
+<td>HMI ID (H)</td>
+<td>HMI2 ID (D)</td>
+<td>Ball Speed(V)</td>
+<td>Ball Speed (0-100)</td>
+<td>Suffix (YB)</td>
+</tr>
 </tbody>
 </table>
+<p>*Ball speed is echoed to the secondary HMI for conformity within the system since it is also displaying the speed statistics.</p>
 <p>Error Types:</p>
 <p>0: Incorrect / No Start Bit</p>
 <p>1: Incorrect / No Address Bit</p>
