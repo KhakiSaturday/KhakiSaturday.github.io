@@ -3,7 +3,15 @@ Component Selection: HMI System
 
 ---
 
-## Main
+## Important Components
+
+| Component Image    | Link and Cost    | Function    |
+| ------------------ | ---------------- | ----------- |
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4.jpg?raw=true" width="200">|[ESP32-S3-WROOM-1-N4](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639) Cost:$2.95 USD| Micro Controller|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/4133screenadafruit.jpg?raw=true" width="200">|[2.0" 320x240 Color IPS TFT Display with microSD Card Breakout - ST7789 EYESPI](https://www.adafruit.com/product/4311) Cost:$19.95 USD| OLED Screen|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg?raw=true" width="200">|[LM2576WU-TR](https://www.digikey.com/en/products/detail/microchip-technology/LM2576WU-TR/1121875)Cost:$1.79 USD| 3 Amp Switching Voltage Regulator|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" width="200">|[Arcade Button with LED - 30mm Translucent Blue](https://www.adafruit.com/product/3490) Cost:$2.50 USD| Buttons for user input|
+
 ## Component Selection HMI System
 
 ### Role within Group
@@ -42,10 +50,10 @@ I selected the GRAPHIC DISPLAY TFT RGB 2" due to its included libraries as they 
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg?raw=true" width="200">[LM2576WU-TR](https://www.digikey.com/en/products/detail/microchip-technology/LM2576WU-TR/1121875)Cost:$1.79 USD| Cheap/ 3 amps which would be nice if I needed to add a component to my board/ Only 5 pins to solder/ Min Voltage range input of 4 Volts| Large Footprint|
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/SC189ZSKTRT.jpg?raw=true" width="200">[SC189ZSKTRT](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) Cost:$1.89 USD| Only 6 pins/ space efficient|Incredibly small/Easy to lose/ Will be a headache|
 
-Choice: LM2576-5.0WU-TR
+Choice: LM2576WU-TR
 
 Justification
-I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” option that I was able to find. The wide range it has for the input voltage and the extra 2 amps it's able to provide will be a huge help if I need to swap components last second. Its footprint also allows for it to be mounted partially off the side of the board for added space.
+I chose the LM2576WU-TR since it was the best “bang for your buck” option that I was able to find. The wide range it has for the input voltage and the extra 3 amps it's able to provide will be a huge help if I need to swap components last second. Its footprint also allows for it to be mounted partially off the side of the board for added space.
 
 ### Barrel Jack Selection
 
@@ -86,7 +94,7 @@ The button was chosen due to its large size and the five different color ways it
 
 ### Micro Controller Fact Sheet
 
-| PIC18F24Q24 Info     |  Answer            |
+| ESP32 Info           | Answer             |
 | -------------------- | ------------------ |
 | Model                | ESP32-S3-WROOM-1-N4|
 | Product Page         | [Product Page](https://www.espressif.com/en/module/esp32-s3-wroom-1-en)        |
@@ -110,9 +118,7 @@ The button was chosen due to its large size and the five different color ways it
 | Ground         |  2          | 2      | GND, GND                                           |
 | UART           |  3          | 2      | GPIO17-GPIO18, GPIO43-GPIO44                       |
 | External SPI   |  4          | 4      | GPIO26-GPIO32, GPIO33-GPIO37, GPIO9-GPIO14, GPIO38 |
-| I2C            |  2          | 0      | N/A                                                |
-| GPIO           |  45         | 12     | *                                                  |
-| Motor PWM      |  0          | 0      | N/A                                                |
+| GPIO           |  45         | 12     | GPIO 2, GPIO9-13, GPIO 35-37, GPIO 41              |
 | USB Programmer |  1          | 1      | GPIO19-GPIO20                                      |
 
 ### Power Budget
