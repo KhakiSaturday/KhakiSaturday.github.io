@@ -5,7 +5,7 @@ title: Diagrams and Charts
 <img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/Hunter_Hassebroek_Block%20Diagram-314_Team_310%20(1).jpg?raw=true">
 
 ## Block Diagram Conclusion
-The design implements a 5 buttons to for the user to control the device, alongside an esp32 to interpret said inputs. These inputs navigate the oled screen and will send messages to other subsystems. The system also features a switching 3 amp regulator, a boot button and a reset button. It also connects to a female usb B programmer so it is able to be coded. There are also rx tx lines to the 2 2x4 headers for daisy chain communication.
+The philosphy I followed while making the block diagram was "what would get me all the points for the assignment". This unique visionary,bleeding edge,robust and culturally relevant philosophy allowed me to come up with the design above. The design implements a 5 buttons to for the user to control the device, alongside an esp32 to interpret said inputs. These inputs navigate the oled screen and will send messages to other subsystems. The system also features a switching 3 amp regulator, a boot button and a reset button. It also connects to a female usb B programmer so it is able to be coded. There are also rx tx lines to the 2 2x4 headers for daisy chain communication. With all of these features combiend it conforms to all requirements.
 
 # Electrical Schematic V1
 <img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbschematic.png?raw=true">

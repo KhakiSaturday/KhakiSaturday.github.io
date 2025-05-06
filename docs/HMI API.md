@@ -42,6 +42,7 @@ All are (uint8_t).
 | 5 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Master Reset(R) | Reset(1) | Suffix (YB) |
 | 6 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| MQTT Connection(W) | MQTT Connection(0-1)) | Suffix (YB) |
 | 1 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)| Ball Speed (V) | Ball Speed (0-100) | Suffix (YB) |
+
 ## Sent Messages
 
 All are (uint8_t).
