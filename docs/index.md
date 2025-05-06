@@ -1,6 +1,9 @@
 ----
 Hunter Hassebroek Home Page
 ----
+## Finalized Project Design
+<img src="https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Semi_Final_Project_Image.jpg?raw=true">
+
 ### Link back to Team Website
 [Link to Team Website](https://asu-egr314-2025-s-310.github.io/)
 ### Links to Teammate Websites
@@ -8,6 +11,8 @@ Hunter Hassebroek Home Page
 - [Hunter Hassebroek - HMI](https://khakisaturday.github.io/)
 - [Noah Brent - Actuators](https://nbrentasu.github.io/NBrent/)
 - [Evan Skinner - Sensors](https://eeskinn1.github.io/)
+- [Dominick Trusko - HMI](https://recpal.github.io/DomTrusko304.github.io/)
+-
 
 ### Links to other parts of the site
 - [Bill of Materials and Purchase Orders](https://khakisaturday.github.io/OrderFormsandBOM/)

@@ -3,7 +3,7 @@ Component Selection: HMI System
 
 ---
 
-## Important Components
+## Summary Table of Components
 
 | Component Image    | Link and Cost    | Function    |
 | ------------------ | ---------------- | ----------- |
