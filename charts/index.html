@@ -222,7 +222,7 @@
   
     
   
-  Diagrams and Charts
+  Appendix
 
       </a>
     </li>
@@ -378,7 +378,7 @@
         
   
   <span class="md-ellipsis">
-    Diagrams and Charts
+    Appendix
   </span>
   
 
@@ -567,16 +567,20 @@
 
 
 <h1 id="block-diagram">Block Diagram</h1>
-<p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/Hunter_Hassebroek_Block%20Diagram-314_Team_310%20(1).jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/Hunter_Hassebroek_Block%20Diagram-314_Team_310%20(1).jpg?raw=true"></a></p>
+<p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/FinalizedBlockDiagramsmilever.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/FinalizedBlockDiagramsmilever.jpg?raw=true"></a></p>
 <h2 id="block-diagram-conclusion">Block Diagram Conclusion</h2>
 <p>The philosphy I followed while making the block diagram was "what would get me all the points for the assignment". This unique visionary,bleeding edge,robust and culturally relevant philosophy allowed me to come up with the design above. The design implements a 5 buttons to for the user to control the device, alongside an esp32 to interpret said inputs. These inputs navigate the oled screen and will send messages to other subsystems. The system also features a switching 3 amp regulator, a boot button and a reset button. It also connects to a female usb B programmer so it is able to be coded. There are also rx tx lines to the 2 2x4 headers for daisy chain communication. With all of these features combiend it conforms to all requirements.</p>
-<h1 id="electrical-schematic-v1">Electrical Schematic V1</h1>
+<h1 id="electrical-schematic-v2">Electrical Schematic V2</h1>
 <p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbschematic.png?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbschematic.png?raw=true"></a></p>
 <h1 id="pcb-design">PCB Design</h1>
 <h2 id="front-of-pcb">Front of PCB</h2>
 <p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/front_of_design.png?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/front_of_design.png?raw=true"></a></p>
 <h2 id="back-of-pcb">Back of PCB</h2>
 <p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbback.png?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbback.png?raw=true"></a></p>
+<h2 id="manufacturedassembled-front-of-pcb">Manufactured/Assembled Front of PCB</h2>
+<p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/FabricatedPCBFront.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/FabricatedPCBFront.jpg?raw=true"></a></p>
+<h2 id="manufacturedassembled-back-of-pcb">Manufactured/Assembled Back of PCB</h2>
+<p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/FabricatedPCBBack.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/FabricatedPCBBack.jpg?raw=true"></a></p>
 <h1 id="design-requirement-fullfillmentjustification">Design Requirement Fullfillment/Justification</h1>
 <p>The system fullfills the HMI requirement through the use of 5 buttons with one increasing the speed setting and one decreasing it. There are four speeds that can be set 0,1,2,3 and when the value is changed it sends a speed setting message to the actuator subsystem to change the strength of the magnet. Another one of the buttons displays all messages sent, recieved and passed through the system with the newest being at the top and those that don't fit on the screen being removed. The other two buttons are used to directly swap between a screen that displays the current speed, average speed(past 6), highest speed recorded, lowest speed recorded, and the speed setting. The current speed is sent from the sensors subsystem and transcribed when I receive it. I then calculate the values above in my code and update the display. The last and final button is used to reset the display. The requirements to display messages processed through the system is fullfilled alongside the user controlled input which sends out a message. I also fullfill the switching regulator by using a switching regulator (crazy, I know). The system is coded in micropython and uses an esp32-wroom-S3-N4 as the microcontroller, it also has a usb programmer and correctly connected header placing. As a result the system not only fullfills the requirements of the class, it also exceeds them.</p>
 <h1 id="what-would-i-change-on-a-theoretical-20-version">What Would I change on a theoretical 2.0 version</h1>
