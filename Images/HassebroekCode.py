@@ -13,21 +13,16 @@ BAUD_RATE = 115200
 START_BYTE = 0x02  # Protocol start-of-message byte
 STOP_BYTE  = 0x03  # Protocol end-of-message byte
 
-# Pin assignments for UART (ESP32 hardware UART0 and UART1).
-# Note: UART0 uses GPIO1 (TX0) and GPIO3 (RX0) by default (USB serial).
-# UART1 can be mapped to free GPIOs (example uses TX=17, RX=16 here).
-UART0_TX_PIN = 19   # TX0 (GPIO1) - typically TX to USB/PC
-UART0_RX_PIN = 20   # RX0 (GPIO3) - typically RX from USB/PC
+UART0_TX_PIN = 19  
+UART0_RX_PIN = 20   
 UART1_TX_PIN = 17  
 UART1_RX_PIN = 16  
 
-# Pin assignments for ST7789 display (adjust for your wiring)
-TFT_MOSI  = 23    # SPI MOSI pin connected to display DIN
-TFT_SCK   = 18    # SPI SCK pin connected to display CLK
-TFT_CS    = 15    # Chip select (CS) pin (or tie low if not used)
-TFT_DC    = 4     # Data/Command control pin (D/C)
-TFT_RST   = 5     # Reset pin (RST)
-TFT_BL    = 0     # Backlight control pin (if available, else set None)
+TFT_MOSI  = 35   
+TFT_SCK   = 41   
+TFT_CS    = 15    
+TFT_DC    = 36
+TFT_BL    = 2  
 
 # Display dimensions (in pixels)
 TFT_WIDTH  = 240
@@ -61,7 +56,6 @@ uart1 = UART(1, BAUD_RATE, tx=Pin(UART1_TX_PIN), rx=Pin(UART1_RX_PIN))
 spi = SPI(2, baudrate=40000000, polarity=1, phase=1,
           sck=Pin(TFT_SCK), mosi=Pin(TFT_MOSI))
 display = st7789.ST7789(spi, TFT_WIDTH, TFT_HEIGHT,
-                        reset=Pin(TFT_RST, Pin.OUT),
                         cs=Pin(TFT_CS, Pin.OUT),
                         dc=Pin(TFT_DC, Pin.OUT),
                         rotation=0)  # rotation=0 (adjust as needed for your display orientation)
