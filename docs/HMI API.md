@@ -32,6 +32,7 @@ Stop Byte (2 uint8_t)
 |Evan Skinner| E |
 |Kirk Volin| K |
 |Hunter Hassebroek| H |
+|Dominic Trusko| D |
 | Broadcast | X |
 
 ### Recieved Messages
@@ -39,9 +40,9 @@ All are (uint8_t).
 
 | Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
 |----------|---------------|--------|-----------|--------|--| --|
-| 5 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Master Reset(R) | Reset(1) | Suffix (YB) |
-| 6 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| MQTT Connection(W) | MQTT Connection(0-1)) | Suffix (YB) |
-| 1 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)| Ball Speed (V) | Ball Speed (0-100) | Suffix (YB) |
+| 6 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Master Reset(R) | Reset(1) | Suffix (YB) |
+|  | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| MQTT Connection(W) | MQTT Connection(0-1)) | Suffix (YB) |
+| 7 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Ball Speed (V) | Ball Speed (0-100) | Suffix (YB) |
 
 ## Sent Messages
 
@@ -49,8 +50,11 @@ All are (uint8_t).
 
 | Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
 |----------|---------------|--------|-----------|--------|--| --|
-| 7 | Prefix (AZ)| HMI ID (H)| Actuator ID (N)| Speed (S) | Speed Setting (0-3) | Suffix (YB) |
-| 8 | Prefix (AZ)| HMI ID (H)| Broadcast ID (X)| Error (F) | Error Message (0-5) | Suffix (YB) |
+| 8 | Prefix (AZ)| HMI ID (H)| Actuator ID (N)| Speed (S) | Speed Setting (0-3) | Suffix (YB) |
+| 9 | Prefix (AZ)| HMI ID (H)| Broadcast ID (X)| Error (F) | Error Message (0-5) | Suffix (YB) |
+|10* | Prefix (AZ)| HMI ID (H)| HMI2 ID (D)| Ball Speed(V) | Ball Speed (0-100) | Suffix (YB) |
+
+*Ball speed is echoed to the secondary HMI for conformity within the system since it is also displaying the speed statistics.
 
 Error Types:
 

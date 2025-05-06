@@ -2,6 +2,8 @@
 Component Selection: HMI System
 
 ---
+
+## Main
 ## Component Selection HMI System
 
 ### Role within Group
@@ -108,8 +110,8 @@ The button was chosen due to its large size and the five different color ways it
 | Ground         |  2          | 2      | GND, GND                                           |
 | UART           |  3          | 2      | GPIO17-GPIO18, GPIO43-GPIO44                       |
 | External SPI   |  4          | 4      | GPIO26-GPIO32, GPIO33-GPIO37, GPIO9-GPIO14, GPIO38 |
-| I2C            |  2          | 0      | Can Be Choosen Via Pin Matrix                      |
-| GPIO           |  45         | 10     | *                                                  |
+| I2C            |  2          | 0      | N/A                                                |
+| GPIO           |  45         | 12     | *                                                  |
 | Motor PWM      |  0          | 0      | N/A                                                |
 | USB Programmer |  1          | 1      | GPIO19-GPIO20                                      |
 
