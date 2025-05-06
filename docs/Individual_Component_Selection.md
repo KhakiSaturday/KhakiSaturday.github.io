@@ -37,7 +37,7 @@ I selected the GRAPHIC DISPLAY TFT RGB 2" due to its included libraries as they 
 | Components         |  Pros       |  Cons       |
 | ------------------ | ----------- | ----------- |
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2674MX33NOPB.jpg?raw=true" width="200">[LM2674MX-3.3/NOPB](https://www.digikey.com/en/products/detail/texas-instruments/LM2674MX-3-3-NOPB/366902) Cost:$3.37 USD|Few pins that need to be soldered/ Small Footprint| Decently expensive/ only provides 500mA/ 3 Volt Output/ Min Voltage range input of 6.5V|
-|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg?raw=true" width="200">[LM2576-5.0WU-TR](https://www.digikey.com/en/products/detail/microchip-technology/LM2576-5-0WU-TR/1027688)Cost:$1.79 USD| Cheap/ 2 amps which would be nice if I needed to add a component to my board/ Only 5 pins to solder/ 5 Volt output/ Min Voltage range input of 4 Volts| Large Footprint|
+|<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg?raw=true" width="200">[LM2576WU-TR](https://www.digikey.com/en/products/detail/microchip-technology/LM2576WU-TR/1121875)Cost:$1.79 USD| Cheap/ 3 amps which would be nice if I needed to add a component to my board/ Only 5 pins to solder/ Min Voltage range input of 4 Volts| Large Footprint|
 |<img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/SC189ZSKTRT.jpg?raw=true" width="200">[SC189ZSKTRT](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) Cost:$1.89 USD| Only 6 pins/ space efficient|Incredibly small/Easy to lose/ Will be a headache|
 
 Choice: LM2576-5.0WU-TR
@@ -116,4 +116,4 @@ The button was chosen due to its large size and the five different color ways it
 ### Power Budget
 <img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/power%20budget%20HMI%20Hunter.JPG?raw=true">
 
-
+The power budget was used to estimate how many amps would be needed to run my system both at max load and average load. I chose to go with a 3 amp switching regulator since I wanted to make sure that no matter what happened I wouldn't have to redesign my voltage regulator.

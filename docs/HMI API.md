@@ -34,63 +34,22 @@ Stop Byte (2 uint8_t)
 |Hunter Hassebroek| H |
 | Broadcast | X |
 
-## Recieved Messages
+### Recieved Messages
+All are (uint8_t).
 
-### Master Reset
-
-|  |  Byte 1     |
-| -----------| ----------- |
-|Message| Master Reset  |
-|Variable Type| uint8_t |
-|Data Type| R |
-|Min| 1 |
-|Max| 1 |
-|Example| AZKXR1YB|
-
-### MQTT Connection
-|  |  Byte 1     |
-| -----------| ----------- |
-|Message| MQTT Connection  |
-|Variable Type| uint8_t  |
-|Data Type| W |
-|Min| 0 |
-|Max| 1 |
-|Example| AZKHW1YB|
-
-### Ball Speed from Sensors
-
-|  |  Byte 1     |
-| -----------| ----------- |
-|Message| Ball Speed  |
-|Variable Type| uint8_t  |
-|Data Type| S |
-|Min| 0 |
-|Max| 100 |
-|Example| AZEHS25YB |
-
-
+| Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
+|----------|---------------|--------|-----------|--------|--| --|
+| 5 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Master Reset(R) | Reset(1) | Suffix (YB) |
+| 6 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| MQTT Connection(W) | MQTT Connection(0-1)) | Suffix (YB) |
+| 1 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)| Ball Speed (V) | Ball Speed (0-100) | Suffix (YB) |
 ## Sent Messages
 
-### Speed Setting
-|  |  Byte 1     |
-| -----------| ----------- |
-|Message| Speed Setting  |
-|Variable Type| uint8_t  |
-|Data Type| S |
-|Min|  0 |
-|Max|  6 |
-|Example| AZHNS5YB |
+All are (uint8_t).
 
-### Error
-
-|  |  Byte 1     |
-| -----------| ----------- |
-|Message| Data Type | Error Type |
-|Variable Type| CHAR  | uint8_t |
-|Data Type| E | n/a |
-|Min| E  | 0 |
-|Max| E | 5  |
-|Example| AZHBE3YB ||
+| Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
+|----------|---------------|--------|-----------|--------|--| --|
+| 7 | Prefix (AZ)| HMI ID (H)| Actuator ID (N)| Speed (S) | Speed Setting (0-3) | Suffix (YB) |
+| 8 | Prefix (AZ)| HMI ID (H)| Broadcast ID (X)| Error (F) | Error Message (0-5) | Suffix (YB) |
 
 Error Types:
 
