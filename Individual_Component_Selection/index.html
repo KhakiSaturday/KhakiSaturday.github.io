@@ -93,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#main" class="md-skip">
+        <a href="#important-components" class="md-skip">
           Skip to content
         </a>
       
@@ -456,8 +456,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#main" class="md-nav__link">
-    Main
+  <a href="#important-components" class="md-nav__link">
+    Important Components
   </a>
   
 </li>
@@ -616,8 +616,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#main" class="md-nav__link">
-    Main
+  <a href="#important-components" class="md-nav__link">
+    Important Components
   </a>
   
 </li>
@@ -730,7 +730,38 @@
 
   <h1>Individual Component Selection</h1>
 
-<h2 id="main">Main</h2>
+<h2 id="important-components">Important Components</h2>
+<table>
+<thead>
+<tr>
+<th>Component Image</th>
+<th>Link and Cost</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ESP32-S3-WROOM-1-N4.jpg?raw=true" width="200"></a></td>
+<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639">ESP32-S3-WROOM-1-N4</a> Cost:$2.95 USD</td>
+<td>Micro Controller</td>
+</tr>
+<tr>
+<td><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/4133screenadafruit.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/4133screenadafruit.jpg?raw=true" width="200"></a></td>
+<td><a href="https://www.adafruit.com/product/4311">2.0" 320x240 Color IPS TFT Display with microSD Card Breakout - ST7789 EYESPI</a> Cost:$19.95 USD</td>
+<td>OLED Screen</td>
+</tr>
+<tr>
+<td><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/LM2576-5.0WU-TR.jpg?raw=true" width="200"></a></td>
+<td><a href="https://www.digikey.com/en/products/detail/microchip-technology/LM2576WU-TR/1121875">LM2576WU-TR</a>Cost:$1.79 USD</td>
+<td>3 Amp Switching Voltage Regulator</td>
+</tr>
+<tr>
+<td><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/ButtonADAFruitBlue.jpg?raw=true" width="200"></a></td>
+<td><a href="https://www.adafruit.com/product/3490">Arcade Button with LED - 30mm Translucent Blue</a> Cost:$2.50 USD</td>
+<td>Buttons for user input</td>
+</tr>
+</tbody>
+</table>
 <h2 id="component-selection-hmi-system">Component Selection HMI System</h2>
 <h3 id="role-within-group">Role within Group</h3>
 <p>My role on the team is the HMI system. It is required that I have a screen and a control system on it for the end user to control. This will be done using an ESP32 to communicate with the board and my teammates' boards. The display will show data taken from teammates' systems and present them in graphical form (i.e. graph of average speed of ball over 10 second span).</p>
@@ -821,9 +852,9 @@ I selected the GRAPHIC DISPLAY TFT RGB 2" due to its included libraries as they 
 </tr>
 </tbody>
 </table>
-<p>Choice: LM2576-5.0WU-TR</p>
+<p>Choice: LM2576WU-TR</p>
 <p>Justification
-I chose the LM2576-5.0WU-TR since it was the best “bang for your buck” option that I was able to find. The wide range it has for the input voltage and the extra 2 amps it's able to provide will be a huge help if I need to swap components last second. Its footprint also allows for it to be mounted partially off the side of the board for added space.</p>
+I chose the LM2576WU-TR since it was the best “bang for your buck” option that I was able to find. The wide range it has for the input voltage and the extra 3 amps it's able to provide will be a huge help if I need to swap components last second. Its footprint also allows for it to be mounted partially off the side of the board for added space.</p>
 <h3 id="barrel-jack-selection">Barrel Jack Selection</h3>
 <table>
 <thead>
@@ -918,7 +949,7 @@ The button was chosen due to its large size and the five different color ways it
 <table>
 <thead>
 <tr>
-<th>PIC18F24Q24 Info</th>
+<th>ESP32 Info</th>
 <th>Answer</th>
 </tr>
 </thead>
@@ -1013,22 +1044,10 @@ The button was chosen due to its large size and the five different color ways it
 <td>GPIO26-GPIO32, GPIO33-GPIO37, GPIO9-GPIO14, GPIO38</td>
 </tr>
 <tr>
-<td>I2C</td>
-<td>2</td>
-<td>0</td>
-<td>N/A</td>
-</tr>
-<tr>
 <td>GPIO</td>
 <td>45</td>
 <td>12</td>
-<td>*</td>
-</tr>
-<tr>
-<td>Motor PWM</td>
-<td>0</td>
-<td>0</td>
-<td>N/A</td>
+<td>GPIO 2, GPIO9-13, GPIO 35-37, GPIO 41</td>
 </tr>
 <tr>
 <td>USB Programmer</td>
