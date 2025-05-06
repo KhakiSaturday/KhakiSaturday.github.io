@@ -12,13 +12,13 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/HMI%20API/">
+        <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/Appendix/">
       
       
-        <link rel="prev" href="../Appendix/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../Individual_Component_Selection/">
+        <link rel="next" href="../HMI%20API/">
       
       
       <link rel="icon" href="../static/logo.png">
@@ -29,7 +29,7 @@
 
     
       
-        <title>HMI API - EGR314 Report Hunter Hassebroek</title>
+        <title>Diagrams and Charts - EGR314 Report Hunter Hassebroek</title>
       
     
     
@@ -93,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#message-structure" class="md-skip">
+        <a href="#block-diagram" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HMI API
+              Diagrams and Charts
             
           </span>
         </div>
@@ -217,9 +217,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../Appendix/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -234,11 +236,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../HMI%20API/" class="md-tabs__link">
         
   
     
@@ -374,25 +374,6 @@
       
   
   
-  
-    <li class="md-nav__item">
-      <a href="../Appendix/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Diagrams and Charts
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -401,19 +382,30 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
   
   <span class="md-ellipsis">
-    HMI API
+    Diagrams and Charts
   </span>
   
 
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+      </a>
       
-      <a href="./" class="md-nav__link md-nav__link--active">
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HMI%20API/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -422,146 +414,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#message-structure" class="md-nav__link">
-    Message Structure
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#team-definitions" class="md-nav__link">
-    Team Definitions
-  </a>
-  
-    <nav class="md-nav" aria-label="Team Definitions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#team-bytes" class="md-nav__link">
-    Team Bytes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#team-addresses" class="md-nav__link">
-    Team Addresses
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recieved-messages" class="md-nav__link">
-    Recieved Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Recieved Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#master-reset" class="md-nav__link">
-    Master Reset
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mqtt-connection" class="md-nav__link">
-    MQTT Connection
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ball-speed-from-sensors" class="md-nav__link">
-    Ball Speed from Sensors
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sent-messages" class="md-nav__link">
-    Sent Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Sent Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#speed-setting" class="md-nav__link">
-    Speed Setting
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#error" class="md-nav__link">
-    Error
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#message-handling" class="md-nav__link">
-    Message handling
-  </a>
-  
-    <nav class="md-nav" aria-label="Message handling">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hmi-message-handling-protocol" class="md-nav__link">
-    HMI message handling protocol
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-handling-and-transmission" class="md-nav__link">
-    Error handling and Transmission
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -640,136 +492,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#message-structure" class="md-nav__link">
-    Message Structure
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#team-definitions" class="md-nav__link">
-    Team Definitions
-  </a>
-  
-    <nav class="md-nav" aria-label="Team Definitions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#team-bytes" class="md-nav__link">
-    Team Bytes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#team-addresses" class="md-nav__link">
-    Team Addresses
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recieved-messages" class="md-nav__link">
-    Recieved Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Recieved Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#master-reset" class="md-nav__link">
-    Master Reset
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mqtt-connection" class="md-nav__link">
-    MQTT Connection
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ball-speed-from-sensors" class="md-nav__link">
-    Ball Speed from Sensors
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sent-messages" class="md-nav__link">
-    Sent Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Sent Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#speed-setting" class="md-nav__link">
-    Speed Setting
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#error" class="md-nav__link">
-    Error
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#message-handling" class="md-nav__link">
-    Message handling
-  </a>
-  
-    <nav class="md-nav" aria-label="Message handling">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hmi-message-handling-protocol" class="md-nav__link">
-    HMI message handling protocol
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-handling-and-transmission" class="md-nav__link">
-    Error handling and Transmission
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -784,7 +508,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/template_report/edit/main/docs/HMI API.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/embedded-systems-design/template_report/edit/main/docs/Appendix.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -792,281 +516,15 @@
   
 
 
-  <h1>HMI API</h1>
-
-<h2 id="message-structure">Message Structure</h2>
-<p>Start Byte (2 uint8_t)</p>
-<p>Sender Address (uint8_t)</p>
-<p>Receiver Address (uint8_t)</p>
-<p>Message Type (uint8_t)</p>
-<p>Message (1-56 uint8_t)</p>
-<p>Stop Byte (2 uint8_t)</p>
-<h2 id="team-definitions">Team Definitions</h2>
-<h3 id="team-bytes">Team Bytes</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Byte</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Start</td>
-<td>AZ</td>
-</tr>
-<tr>
-<td>Stop</td>
-<td>YB</td>
-</tr>
-</tbody>
-</table>
-<h3 id="team-addresses">Team Addresses</h3>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Address</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Noah Brent</td>
-<td>N</td>
-</tr>
-<tr>
-<td>Evan Skinner</td>
-<td>E</td>
-</tr>
-<tr>
-<td>Kirk Volin</td>
-<td>K</td>
-</tr>
-<tr>
-<td>Hunter Hassebroek</td>
-<td>H</td>
-</tr>
-<tr>
-<td>Broadcast</td>
-<td>X</td>
-</tr>
-</tbody>
-</table>
-<h2 id="recieved-messages">Recieved Messages</h2>
-<h3 id="master-reset">Master Reset</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>Master Reset</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>R</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZKXR1YB</td>
-</tr>
-</tbody>
-</table>
-<h3 id="mqtt-connection">MQTT Connection</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>MQTT Connection</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>W</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZKHW1YB</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ball-speed-from-sensors">Ball Speed from Sensors</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>Ball Speed</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>S</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>100</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZEHS25YB</td>
-</tr>
-</tbody>
-</table>
-<h2 id="sent-messages">Sent Messages</h2>
-<h3 id="speed-setting">Speed Setting</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>Speed Setting</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>S</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>6</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZHNS5YB</td>
-</tr>
-</tbody>
-</table>
-<h3 id="error">Error</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>Data Type</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>CHAR</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>E</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>E</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>E</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZHBE3YB</td>
-</tr>
-</tbody>
-</table>
-<p>Error Types:</p>
-<p>0: Incorrect / No Start Bit</p>
-<p>1: Incorrect / No Address Bit</p>
-<p>2: Incorrect / No Message Type</p>
-<p>3: Incorrect / No Stop Bit</p>
-<p>4: Incorrect Data Value in Valid Message</p>
-<p>5: Bytes per Message Overflow</p>
-<h2 id="message-handling">Message handling</h2>
-<h3 id="hmi-message-handling-protocol">HMI message handling protocol</h3>
-<ol>
-<li>Identify the start of a message and begin copying it to an array for retransmission.</li>
-<li>
-<p>When receiver identified either</p>
-<p>2a. If not mine, finish copying to retransmission array then retransmit</p>
-<p>2b. If mine, continue to step 3</p>
-<p>2c. If broadcast byte, copy to retransmit array, retransmit, and continue to step 3</p>
-</li>
-<li>
-<p>Identify message type</p>
-</li>
-<li>Interpret message data and apply as specified</li>
-<li>Trash message</li>
-<li>Transmit relevant data</li>
-<li>When new message is received go back to step 1</li>
-</ol>
-<p>Each step has an error check to make sure that things are proceeding smoothly, if it fails, the error code and the address it was transmitted from will be transmitted.</p>
-<p>To elaborate on step 6 and error handling</p>
-<h2 id="error-handling-and-transmission">Error handling and Transmission</h2>
-<ol>
-<li>Whenever an interruptive event occurs (ie switching info every second, error, or reset) begin construction of message in array</li>
-<li>To a temporary array, begin by adding start bytes and my address byte</li>
-<li>Then add receiving address which in most cases will be MQTT, HMI, or broadcast</li>
-<li>Add message type byte based on messaging protocols above</li>
-<li>Complete message by adding data then capping with stop bytes</li>
-<li>Check if already transmitting, if so wait for transmission to end and delay then send</li>
-<li>Otherwise send</li>
-<li>Trash temporary sending array</li>
-</ol>
+<h1 id="block-diagram">Block Diagram</h1>
+<p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/Hunter_Hassebroek_Block%20Diagram-314_Team_310%20(1).jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/Hunter_Hassebroek_Block%20Diagram-314_Team_310%20(1).jpg?raw=true"></a></p>
+<h1 id="electrical-schematic-v1">Electrical Schematic V1</h1>
+<p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbschematic.png?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbschematic.png?raw=true"></a></p>
+<h1 id="pcb-design">PCB Design</h1>
+<h2 id="front-of-pcb">Front of PCB</h2>
+<p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/front_of_design.png?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/front_of_design.png?raw=true"></a></p>
+<h2 id="back-of-pcb">Back of PCB</h2>
+<p><a class="glightbox" href="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbback.png?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/KhakiSaturday/KhakiSaturday.github.io/blob/main/Images/pcbback.png?raw=true"></a></p>
 
 
 
@@ -1094,7 +552,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Appendix/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Diagrams and Charts" rel="prev">
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1104,20 +562,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Diagrams and Charts
+                Home
               </div>
             </div>
           </a>
         
         
           
-          <a href="../Individual_Component_Selection/" class="md-footer__link md-footer__link--next" aria-label="Next: Individual Component Selection" rel="next">
+          <a href="../HMI%20API/" class="md-footer__link md-footer__link--next" aria-label="Next: HMI API" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Individual Component Selection
+                HMI API
               </div>
             </div>
             <div class="md-footer__button md-icon">
