@@ -465,63 +465,9 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#recieved-messages" class="md-nav__link">
     Recieved Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Recieved Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#master-reset" class="md-nav__link">
-    Master Reset
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mqtt-connection" class="md-nav__link">
-    MQTT Connection
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ball-speed-from-sensors" class="md-nav__link">
-    Ball Speed from Sensors
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sent-messages" class="md-nav__link">
-    Sent Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Sent Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#speed-setting" class="md-nav__link">
-    Speed Setting
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#error" class="md-nav__link">
-    Error
   </a>
   
 </li>
@@ -676,63 +622,9 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#recieved-messages" class="md-nav__link">
     Recieved Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Recieved Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#master-reset" class="md-nav__link">
-    Master Reset
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mqtt-connection" class="md-nav__link">
-    MQTT Connection
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ball-speed-from-sensors" class="md-nav__link">
-    Ball Speed from Sensors
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sent-messages" class="md-nav__link">
-    Sent Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Sent Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#speed-setting" class="md-nav__link">
-    Speed Setting
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#error" class="md-nav__link">
-    Error
   </a>
   
 </li>
@@ -852,180 +744,90 @@
 </tr>
 </tbody>
 </table>
-<h2 id="recieved-messages">Recieved Messages</h2>
-<h3 id="master-reset">Master Reset</h3>
+<h3 id="recieved-messages">Recieved Messages</h3>
+<p>All are (uint8_t).</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th>Byte 1</th>
+<th>Message Type</th>
+<th>Message Byte 1-2 <br> Message Prefix</th>
+<th>Byte 3 <br> Sender ID</th>
+<th>Byte 4 <br> Receiver ID</th>
+<th>Byte 5 <br> Data Type</th>
+<th>Byte 6 <br> Data Value</th>
+<th>Byte 7-8</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Message</td>
-<td>Master Reset</td>
+<td>5</td>
+<td>Prefix (AZ)</td>
+<td>MQTT ID (K)</td>
+<td>HMI ID (H)</td>
+<td>Master Reset(R)</td>
+<td>Reset(1)</td>
+<td>Suffix (YB)</td>
 </tr>
 <tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>R</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZKXR1YB</td>
-</tr>
-</tbody>
-</table>
-<h3 id="mqtt-connection">MQTT Connection</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>MQTT Connection</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>W</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZKHW1YB</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ball-speed-from-sensors">Ball Speed from Sensors</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>Ball Speed</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>S</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>100</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZEHS25YB</td>
-</tr>
-</tbody>
-</table>
-<h2 id="sent-messages">Sent Messages</h2>
-<h3 id="speed-setting">Speed Setting</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Message</td>
-<td>Speed Setting</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>S</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max</td>
 <td>6</td>
+<td>Prefix (AZ)</td>
+<td>MQTT ID (K)</td>
+<td>HMI ID (H)</td>
+<td>MQTT Connection(W)</td>
+<td>MQTT Connection(0-1))</td>
+<td>Suffix (YB)</td>
 </tr>
 <tr>
-<td>Example</td>
-<td>AZHNS5YB</td>
+<td>1</td>
+<td>Prefix (AZ)</td>
+<td>Sensor ID (E)</td>
+<td>HMI ID (H)</td>
+<td>Ball Speed (V)</td>
+<td>Ball Speed (0-100)</td>
+<td>Suffix (YB)</td>
+</tr>
+<tr>
+<td>## Sent Messages</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h3 id="error">Error</h3>
+<p>All are (uint8_t).</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th>Byte 1</th>
+<th>Message Type</th>
+<th>Message Byte 1-2 <br> Message Prefix</th>
+<th>Byte 3 <br> Sender ID</th>
+<th>Byte 4 <br> Receiver ID</th>
+<th>Byte 5 <br> Data Type</th>
+<th>Byte 6 <br> Data Value</th>
+<th>Byte 7-8</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Message</td>
-<td>Data Type</td>
+<td>7</td>
+<td>Prefix (AZ)</td>
+<td>HMI ID (H)</td>
+<td>Actuator ID (N)</td>
+<td>Speed (S)</td>
+<td>Speed Setting (0-3)</td>
+<td>Suffix (YB)</td>
 </tr>
 <tr>
-<td>Variable Type</td>
-<td>CHAR</td>
-</tr>
-<tr>
-<td>Data Type</td>
-<td>E</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>E</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>E</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>AZHBE3YB</td>
+<td>8</td>
+<td>Prefix (AZ)</td>
+<td>HMI ID (H)</td>
+<td>Broadcast ID (X)</td>
+<td>Error (F)</td>
+<td>Error Message (0-5)</td>
+<td>Suffix (YB)</td>
 </tr>
 </tbody>
 </table>
